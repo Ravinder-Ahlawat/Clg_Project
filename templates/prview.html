@@ -1,0 +1,36 @@
+{% extends 'basic.html' %}
+
+{% block title%} Product View {% endblock %}
+
+{% block body%}
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Website</th>
+        <th scope="col">Price</th>
+        <th scope="col">Rating</th>
+        <th scope="col">Buy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Amazon</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">Flipcart</th>
+        <td>Jacob</td>
+        <td></td>
+        <td><a href='https://www.amazon.in/Test-Exclusive-746/dp/B07DJHXTLJ/ref=lp_18383093031_1_1?s=electronics&ie=UTF8&qid=1579339664&sr=1-1'>Buy</a></td>
+      </tr>
+      <tr>
+        <th scope="row">Snapdeal</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+{% endblock %}
